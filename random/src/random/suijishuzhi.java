@@ -1,6 +1,6 @@
 package random;
 
-//import java.util.Random;
+import java.util.Random;
 
 public class suijishuzhi extends suiji {
 
@@ -9,14 +9,12 @@ public class suijishuzhi extends suiji {
        
         
         
-//        int min=1000000;
-//        Random random = new Random();
-	//        int s = random.nextInt(max)%(max-min+1) + min;
+
 		for(int n=1;n<=10;n++)
-			//Ñ­»·Éú³É10×éÊýÖµ
+			//å¾ªçŽ¯ç”Ÿæˆ10ç»„æ•°å€¼
 			{
 	        int a= (int)(Math.random()*10);
-	        int b= (int)(Math.random()*10); //Ëæ»ú³ö0-9µÄÕûÊý
+	        int b= (int)(Math.random()*10); //éšæœºå‡º0-9çš„æ•´æ•°
 		       
 		        switch(a)
 		        {
