@@ -1,14 +1,16 @@
 package Main;
-//¡ãF = (9/5)*¡ãC + 32
+//Â¡Ã£F = (9/5)*Â¡Ã£C + 32
 import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		int f;
 		Scanner in=new Scanner(System.in);
 		f=in.nextInt();
 		System.out.println((int)((5.0/9)*(f-32)));
+		
+		in.close();
 	}
 
 }
